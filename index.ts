@@ -2,6 +2,7 @@ import inquirer from "inquirer";
 
 //Creating input messages
 
+(async ()=>{
 const answer = await inquirer.prompt([
   { message: "Enter first number", type: "number", name: "firstNumber" },
   { message: "Enter second number", type: "number", name: "secondNumber" },
@@ -12,6 +13,7 @@ const answer = await inquirer.prompt([
     choices: ["Addition", "Subtraction", "Multiplication", "Division"],
   },
 ]);
+
 
 console.log(answer);
 
@@ -28,3 +30,5 @@ if (answer.operator === "Addition") {
 } else {
   console.log("Please select a valid operator");
 }
+
+})()

@@ -1,5 +1,7 @@
 import inquirer from "inquirer";
 
+//Creating input messages
+
 const answer = await inquirer.prompt([
   { message: "Enter first number", type: "number", name: "firstNumber" },
   { message: "Enter second number", type: "number", name: "secondNumber" },

@@ -8,4 +8,3 @@ A **Simple Calculator** built with **TypeScript**, **Node.js**, and **Inquirer.j
 - Interactive and user-friendly command-line interface.
 - Written in clean and modular **TypeScript** code.
 
-## Installation

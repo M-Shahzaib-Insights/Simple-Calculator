@@ -17,14 +17,14 @@ console.log(answer);
 
 //Conditional Statements:
 
-if (answer.operator === "Addition"){
-    console.log(`Your Answer is ${answer.firstNumber + answer.secondNumber}`);
-} else if(answer.operator === "Subtraction"){
-    console.log(`Your Answer is ${answer.firstNumber - answer.secondNumber}`);
-} else if(answer.operator === "Multiplication"){
-    console.log(`Your Answer is ${answer.firstNumber * answer.secondNumber}`);
-} else if(answer.operator === "Division"){
-    console.log(`Your Answer is ${answer.firstNumber / answer.secondNumber}`);
-} else{
-    console.log("Please select a valid operator");
+if (answer.operator === "Addition") {
+  console.log(`Your Answer is ${answer.firstNumber + answer.secondNumber}`);
+} else if (answer.operator === "Subtraction") {
+  console.log(`Your Answer is ${answer.firstNumber - answer.secondNumber}`);
+} else if (answer.operator === "Multiplication") {
+  console.log(`Your Answer is ${answer.firstNumber * answer.secondNumber}`);
+} else if (answer.operator === "Division") {
+  console.log(`Your Answer is ${answer.firstNumber / answer.secondNumber}`);
+} else {
+  console.log("Please select a valid operator");
 }

@@ -1,0 +1,23 @@
+{
+  "name": "msr-cli-number-guessing-game",
+  "version": "1.0.0",
+  "description": "This is CLI based number guessing game",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Shahzaib-Insights/Typescript-Projects.git#111683a1832fc2e01cda0f625785555e97a148ea"
+  },
+  "author": "Muhammad Shahzaib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Shahzaib-Insights/Typescript-Projects/issues"
+  },
+  "homepage": "https://github.com/M-Shahzaib-Insights/Typescript-Projects/tree/111683a1832fc2e01cda0f625785555e97a148ea#readme",
+  "dependencies": {
+    "inquirer": "^12.1.0"
+  }
+}
